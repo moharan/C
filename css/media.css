@@ -1,0 +1,21 @@
+@media only screen and (min-width: 1px) and (max-width: 480px) {
+	.principal {
+	background-image: url(../img/home/480_new.jpg);
+	}
+
+}
+@media only screen and (min-width: 481px) and (max-width: 600px) {
+	.principal {
+	background-image: url(../img/home/600_new.jpg);
+	}
+
+}
+@media only screen and (min-width: 601px) and (max-width: 1280px) {
+	.principal {
+	background-image: url(../img/home/1280_new.jpg);
+	}
+
+}
+@media only screen and (min-width: 1281px) {
+
+}
