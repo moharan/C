@@ -1,5 +1,39 @@
-body {
-	
+:root{
+	/*negro*/
+  var-MainColor: #000;
+  --main-color: #000;
+  /*amarillo*/
+  var-SecondColor: #FCEE22;
+  --second-color: #FCEE22;
+  /*verde*/
+  var-ThirdColor: #8CC63F;
+  --third-color: #8CC63F;
+  /*celeste*/
+  var-FourthColor: #29A6DD;
+  --fourth-color: #29A6DD;
+  /*gris-claro*/
+  var-FifthColor: #DEDEDE;
+  --fifth-color: #DEDEDE;
+  /*gris-oscuro*/
+  var-SixthColor: #949494;
+  --sixth-color: #949494;
+  /*anaranjado*/
+  var-SeventhColor: #F6AB3B;
+  --seventh-color: #F6AB3B;
+  /*cafe*/
+  var-EighthColor: #A17C52;
+  --eighth-color: #A17C52;
+  /*blanco*/
+  var-NinthColor: #FFF;
+  --ninth-color: #FFF;
+  /*Namarillo-claro*/
+  var-TenthColor: #FBF597;
+  --tenth-color: #FBF597;
+}
+/*Nav*/
+.navbar-default {
+    background-color: black;
+    border: none;
 }
 /*Sección 01*/
 .principal {
@@ -7,6 +41,32 @@ body {
 	height: 100vh;
 	background-size: cover;
 	background-repeat: no-repeat;
-	background-position: center;
-	color: #fff;
+	background-position: center bottom;
+	color: var(--ninth-color,red);
+}
+/*Sección 02*/
+.cabanas {
+	background-color: var(--tenth-color,red);
+}
+.precios {
+	background-color: var(--fifth-color,red);
+}
+/*Sección 03*/
+.reglamento {
+	background-color: var(--second-color,red);
+}
+/*Sección 04*/
+.lanalhue {
+	background-color: var(--fourth-color,red);
+}
+/*Sección 05*/
+.formulario {
+	background-color: var(--seventh-color,red);
+}
+.contacto {
+	background-color: var(--eighth-color,red);
+}
+/*Footer*/
+footer {
+	background-color: var(--main-color,red);
 }
